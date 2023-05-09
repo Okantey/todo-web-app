@@ -1,0 +1,30 @@
+h1 {
+  margin: 0;
+}
+.header__content {
+  width: 35%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.theme__switch {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header__down input {
+  width: 100%;
+  padding-block: 0.8rem;
+  padding-left: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  margin-block: 1rem;
+}
